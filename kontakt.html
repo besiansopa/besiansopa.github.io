@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="de">
+  <head>
+    <title>Kontakt | Besian Sopa</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link  href="css/style.css" type="text/css" rel="stylesheet">
+  </head>
+
+  <body>
+
+    <div class="header">
+      <h1>Besian <span class="logo_colour">Sopa</span></h1>
+      <p>Mein Gaming Profil, Hardware und Spiele</p>
+    </div>
+
+    <div class="topnav">
+      <a href="/">Startseite</a>
+      <a href="profil.html">Profil</a>
+      <a href="hardware.html">Hardware</a>
+      <a href="spiele.html">Spiele</a>
+      <a href="kontakt.html">Kontakt</a>
+    </div>
+
+    <div class="content">
+      <div class="column">
+        <h2>Kontaktieren Sie mich</h2>
+           <div id="kontakt-form">
+           <form action="formular/formular.php">
+
+               <label for="vname">Vorname</label>
+               <input type="text" id="vname" name="vorname" required placeholder="Ihr Vorname..">
+
+               <label for="nname">Nachname</label>
+               <input type="text" id="nname" name="nachname" required placeholder="Ihr Nachname..">
+
+               <label for="email">E-Mail Addresse</label>
+               <input type="email" id="email" name="email" required placeholder="Ihre E-Mail Addresse..">
+
+               <label for="nachricht">Nachricht</label>
+               <textarea id="nachricht" name="nachricht" required placeholder="Ihre Nachricht.." style="height:150px"></textarea>
+
+               <input type="submit" value="Senden">
+
+           </form>
+         </div>
+      </div>
+      <div class="column">
+        <h2>Meine Kontaktdaten</h2>
+        <h4>E-Mail Addresse:</h4>
+        <p>besian.sopa@bbzbl-it.ch</p>
+        <h4>Telefonnummer:</h4>
+        <p>+41 77 123 45 67</p>
+        <h4>Addresse:</h4>
+        <p>Basel, Schweiz</p>
+        <h3>Nützliche Links</h3>
+        <ul>
+          <li><a href="files/lebenslauf.pdf" target="_blank">Mein Lebenslauf als PDF</a></li>
+          <li><a href="https://www.w3schools.com/html/default.asp">HTML Tutorial bei W3Schools</a></li>
+          <li><a href="https://www.w3schools.com/css/default.asp">CSS Tutorial bei W3Schools</a></li>
+          <li><a href="https://validator.w3.org/#validate_by_uri">HTML Validator</a></li>
+          <li><a href="https://jigsaw.w3.org/css-validator/validator.html.en">CSS Validator</a></li>
+        </ul>
+    </div>
+    </div>
+
+    <div id="footer">
+      Copyright &copy; Besian Sopa | <a href="impressum.html">Impressum</a>
+    </div>
+  </body>
+</html>
